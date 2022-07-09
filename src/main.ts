@@ -18,9 +18,12 @@ import { createPinia } from "pinia";
 import piniaPluginPersistedstate from "pinia-plugin-persistedstate";
 import router from "./router/index";
 import App from "./App.vue";
+import VueChartkick from 'vue-chartkick';
+import 'chartkick/chart.js';
 
 // Create new vue app
 createApp(App)
   .use(router)
   .use(createPinia().use(piniaPluginPersistedstate))
+  .use(VueChartkick)
   .mount("#app");
