@@ -38,14 +38,6 @@
         >
           <span @click="showMobileMenu = false">{{ menuItem.name }}</span>
         </router-link>
-
-        <!-- <a
-          class="navbar-item"
-          href="https://github.com/Enkel-Digital/vue3-bulma-template"
-          target="_blank"
-        >
-          <span @click="showMobileMenu = false">Github</span>
-        </a> -->
       </div>
     </div>
   </nav>
