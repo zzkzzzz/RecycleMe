@@ -28,13 +28,13 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      component: Home,
-    },
-    {
-      path: "/Parallax",
-      name: "parallax",
       component: Parallax,
     },
+    // {
+    //   path: "/Parallax",
+    //   name: "parallax",
+    //   component: Parallax,
+    // },
 
     /* Public only routes */
     // {

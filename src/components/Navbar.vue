@@ -45,13 +45,13 @@
           <span @click="showMobileMenu = false">{{ menuItem.name }}</span>
         </router-link>
 
-        <a
+        <!-- <a
           class="navbar-item"
           href="https://github.com/Enkel-Digital/vue3-bulma-template"
           target="_blank"
         >
           <span @click="showMobileMenu = false">Github</span>
-        </a>
+        </a> -->
       </div>
     </div>
   </nav>
@@ -68,7 +68,9 @@ export default {
 
       // @todo Add menu items as needed
       menuItems: [
-        // { name: "About", link: { name: "about" } },
+        { name: "Contact us", link: "" },
+        { name: "Achievement", link: "" },
+        { name: "Profile", link: "" },
       ],
     };
   },
