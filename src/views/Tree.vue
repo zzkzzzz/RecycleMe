@@ -2,7 +2,7 @@
   <body>
     <section class="hero is-info is-fullheight">
       <div class="hero-head">
-        <nav class="navbar">
+        <!-- <nav class="navbar">
           <div class="container">
             <div class="navbar-brand">
               <a class="navbar-item" href="../">
@@ -57,30 +57,55 @@
               </div>
             </div>
           </div>
-        </nav>
+        </nav> -->
       </div>
 
       <div class="hero-body">
         <div class="container has-text-centered">
           <div class="column is-6 is-offset-3">
-            <h1 class="title">Coming Soon</h1>
+            <h1 class="title">Recycle for the greater good</h1>
             <h2 class="subtitle">
-              $this is the best software platform for running an internet
-              business. We handle billions of dollars every year for
-              forward-thinking businesses around the world.
+              Input values below to visualize the benefit of recycling
             </h2>
             <div class="box">
-              <div class="field is-grouped">
-                <p class="control is-expanded">
-                  <input
-                    class="input"
-                    type="text"
-                    placeholder="Enter your email"
-                  />
-                </p>
-                <p class="control">
-                  <a class="button is-info"> Notify Me </a>
-                </p>
+              <div class="field is-horizontal">
+                <div class="field-body">
+                  <!-- <div class="field">
+                    <p class="control is-expanded">
+                      <input
+                        class="input is-primary"
+                        type="text"
+                        placeholder="Waste Category"
+                      />
+                    </p>
+                  </div> -->
+                  <div class="field">
+                    <div class="control">
+                      <div class="select">
+                        <select>
+                          <option>Paper</option>
+                          <option>Glass</option>
+                          <option>Organic</option>
+                          <option>Plastic</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <p class="control">
+                      <input
+                        class="input is-primary"
+                        type="text"
+                        placeholder="Weight(g)"
+                      />
+                    </p>
+                  </div>
+                  <div class="field">
+                    <p class="control">
+                      <a class="button is-info"> Recycle it! </a>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
