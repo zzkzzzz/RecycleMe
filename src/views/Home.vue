@@ -3,24 +3,21 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Ghost Style Blog - Free Bulma template</title>
-
     <link
       rel="stylesheet"
       href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="../css/ghost-blog.css" />
   </head>
 
   <section class="hero is-medium">
     <div class="hero-body">
       <div class="container has-text-centered">
         <img
-          src="https://cdn.emk.dev/templates/bulma-logo-light.png"
+          src="https://cdn-icons-png.flaticon.com/512/346/346195.png"
           width="150"
           height="40"
         />
-        <h2 class="subtitle">Ghost's Casper theme made with Bulma</h2>
+        <h2 class="subtitle">Recycle Me!</h2>
       </div>
     </div>
   </section>
