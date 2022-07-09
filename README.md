@@ -2,10 +2,10 @@
 
 ## How to start
 
-    - Get started by installing dependencies
-      - `npm i`
-    - Run in development mode
-      - `npm run serve`
+- Get started by installing dependencies
+  - `npm i`
+- Run in development mode
+  - `npm run serve`
 
 ## Author
 
