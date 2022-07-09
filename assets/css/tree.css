@@ -29,8 +29,24 @@ html,body {
   line-height: 1.5;
 }
 
-.title .subtitle {
-  color: black ;
+.hero-body .container .column .title {
+  color: white ;
 }
 
+.hero-body .container .column .subtitle {
+  color: white ;
+}
+
+.tile .title {
+  color: white ;
+}
+
+.is-128x128 {
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: white;
+}
 

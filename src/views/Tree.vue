@@ -108,29 +108,33 @@
               </div>
             </div>
           </div>
+          <h2 class="subtitle" style="color: white;">Recycling this will result in...</h2>
           <div class="tile is-ancestor has-text-centered">
             <div class="tile is-parent">
               <article class="tile is-child">
-                <figure class="image is-square">
-                  <img src="https://bulma.io/images/placeholders/128x128.png" />
+                <figure class="image is-128x128">
+                  <img src="../../assets/images/lightning.png" />
                 </figure>
-                <p class="title">439k</p>
+                <p class="title">20</p>
+                <h2>Watt(s) of electricity saved</h2>
               </article>
             </div>
             <div class="tile is-parent">
               <article class="tile is-child">
-                <figure class="image is-square">
-                  <img src="https://bulma.io/images/placeholders/128x128.png" />
+                <figure class="image is-128x128">
+                  <img src="../../assets/images/carbon-footprint.png" />
                 </figure>
-                <p class="title">59k</p>
+                <p class="title">1.3</p>
+                <h2>kg(s) of CO2 emission reduced</h2>
               </article>
             </div>
-            <div class="tile is-parent">
+            <div class="tile is-parent ">
               <article class="tile is-child">
-                <figure class="image is-square">
-                  <img src="https://bulma.io/images/placeholders/128x128.png" />
+                <figure class="image is-128x128">
+                  <img src="../../assets/images/planet-earth.png" />
                 </figure>
-                <p class="title">3.4k</p>
+                <p class="title">$1.5</p>
+                <h2>Dollar(s) saved in processing it as trash</h2>
               </article>
             </div>
           </div>
