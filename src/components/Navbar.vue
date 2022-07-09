@@ -3,16 +3,10 @@
   <nav id="nav" class="navbar is-fixed-top is-white" role="navigation">
     <div class="navbar-brand">
       <router-link :to="{ name: 'home' }" class="navbar-item">
-        <svg viewBox="0 0 128 128" width="24" height="24">
-          <path
-            fill="#42b883"
-            d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z"
-          />
-          <path
-            fill="#35495e"
-            d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z"
-          />
-        </svg>
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/346/346195.png"
+          alt="Logo"
+        />
       </router-link>
 
       <!-- Using <a> instead of button as it does not need an icon and dont have the inverted colors on click behaviour -->
@@ -69,8 +63,8 @@ export default {
       // @todo Add menu items as needed
       menuItems: [
         { name: "Contact us", link: "" },
-        { name: "Achievement", link: "" },
-        { name: "Profile", link: "" },
+        { name: "Achievement", link: "/tree" },
+        { name: "Profile", link: "/profile" },
       ],
     };
   },

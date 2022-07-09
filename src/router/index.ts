@@ -4,7 +4,8 @@ import type { AuthTypes } from "./AuthType";
 import AuthType from "./AuthType";
 
 import Home from "../views/Home.vue";
-import Parallax from "../views/Parallax.vue";
+import Profile from "../views/Profile.vue";
+import Tree from "../views/Tree.vue";
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -30,11 +31,16 @@ const router = createRouter({
       name: "home",
       component: Home,
     },
-    // {
-    //   path: "/Parallax",
-    //   name: "parallax",
-    //   component: Parallax,
-    // },
+    {
+      path: "/Profile",
+      name: "profile",
+      component: Profile,
+    },
+    {
+      path: "/Tree",
+      name: "tree",
+      component: Tree,
+    },
 
     /* Public only routes */
     // {
