@@ -1,103 +1,210 @@
 <template>
-  <!--
-    Wrapping all elements of this view in a div even though vue3 allows
-    for multiple elements per template without a root element.
-    However, since there is a class applied to the router-view element
-    in App.vue, vue will not know which sub element to apply that class
-    onto, therefore, by grouping all under a div tag, the class applied
-    on router-view element in App.vue will be inherited here on this div.
-  -->
-  <div>
-    <div class="section mx-3 py-0">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ghost Style Blog - Free Bulma template</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="../css/ghost-blog.css" />
+  </head>
+
+  <section class="hero is-medium">
+    <div class="hero-head">
+      <div class="container">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item is-active"> Home </a>
+              <a class="navbar-item"> Blog Posts </a>
+            </div>
+
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <a href="#">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fas fa-rss-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <img
+          src="https://cdn.emk.dev/templates/bulma-logo-light.png"
+          width="150"
+          height="40"
+        />
+        <h2 class="subtitle">Ghost's Casper theme made with Bulma</h2>
+      </div>
+    </div>
+  </section>
+  <section class="blog-posts">
+    <div class="container">
       <div class="columns">
-        <div class="column">
-          <button
-            class="button is-light is-fullwidth"
-            :class="{ 'is-success': API_type === 'Options' }"
-            @click="API_type = 'Options'"
-          >
-            Options API
-          </button>
-        </div>
-        <div class="column">
-          <button
-            class="button is-light is-fullwidth"
-            :class="{ 'is-success': API_type === 'Composition' }"
-            @click="API_type = 'Composition'"
-          >
-            Composition API
-          </button>
+        <div class="column is-10 is-offset-1">
+          <div class="columns featured-post is-multiline">
+            <div class="column is-12 post">
+              <article class="columns featured">
+                <div class="column is-7 post-img">
+                  <img
+                    src="https://cdn.emk.dev/templates/featured-image.png"
+                    alt=""
+                  />
+                </div>
+                <div class="column is-5 featured-content va">
+                  <div>
+                    <h3 class="heading post-category">Category Name</h3>
+                    <h1 class="title post-title">Blog Posts Template</h1>
+                    <p class="post-excerpt">
+                      This template is based off of the official default blog
+                      template created by the fine folks over at
+                      <a href="https://ghost.io">Ghost</a>. If you are looking
+                      for a fully featured blog platform, I highly recommend
+                      checking them out!
+                    </p>
+                    <br />
+                    <a href="#" class="button is-primary">Read More</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+          <hr />
+          <div class="columns is-multiline">
+            <div class="column post is-6">
+              <article class="columns is-multiline">
+                <div class="column is-12 post-img">
+                  <img
+                    src="https://cdn.emk.dev/templates/post-img.png"
+                    alt="Featured Image"
+                  />
+                </div>
+                <div class="column is-12 featured-content">
+                  <h3 class="heading post-category">Category Name</h3>
+                  <h1 class="title post-title">
+                    Slightly Longer Blog Post Title
+                  </h1>
+                  <p class="post-excerpt">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Accusamus ratione harum eaque, animi nulla tempore quis,
+                    quam voluptatum.
+                  </p>
+                  <br />
+                  <a href="#" class="button is-primary">Read More</a>
+                </div>
+              </article>
+            </div>
+            <div class="column post is-6">
+              <article class="columns is-multiline">
+                <div class="column is-12 post-img">
+                  <img
+                    src="https://cdn.emk.dev/templates/post-img.png"
+                    alt="Featured Image"
+                  />
+                </div>
+                <div class="column is-12 featured-content">
+                  <h3 class="heading post-category">Category Name</h3>
+                  <h1 class="title post-title">
+                    Slightly Longer Blog Post Title
+                  </h1>
+                  <p class="post-excerpt">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Accusamus ratione harum eaque, animi nulla tempore quis,
+                    quam voluptatum.
+                  </p>
+                  <br />
+                  <a href="#" class="button is-primary">Read More</a>
+                </div>
+              </article>
+            </div>
+            <div class="column post is-4">
+              <article class="columns is-multiline">
+                <div class="column is-12 post-img">
+                  <img
+                    src="https://cdn.emk.dev/templates/post-img.png"
+                    alt="Featured Image"
+                  />
+                </div>
+                <div class="column is-12 featured-content">
+                  <h3 class="heading post-category">Category Name</h3>
+                  <h1 class="title post-title">
+                    Slightly Longer Blog Post Title
+                  </h1>
+                  <p class="post-excerpt">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Accusamus ratione harum eaque, animi nulla tempore quis,
+                    quam voluptatum.
+                  </p>
+                  <br />
+                  <a href="#" class="button is-primary">Read More</a>
+                </div>
+              </article>
+            </div>
+            <div class="column post is-4">
+              <article class="columns is-multiline">
+                <div class="column is-12 post-img">
+                  <img
+                    src="https://cdn.emk.dev/templates/post-img.png"
+                    alt="Featured Image"
+                  />
+                </div>
+                <div class="column is-12 featured-content">
+                  <h3 class="heading post-category">Category Name</h3>
+                  <h1 class="title post-title">
+                    Slightly Longer Blog Post Title
+                  </h1>
+                  <p class="post-excerpt">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Accusamus ratione harum eaque, animi nulla tempore quis,
+                    quam voluptatum.
+                  </p>
+                  <br />
+                  <a href="#" class="button is-primary">Read More</a>
+                </div>
+              </article>
+            </div>
+            <div class="column post is-4">
+              <article class="columns is-multiline">
+                <div class="column is-12 post-img">
+                  <img
+                    src="https://cdn.emk.dev/templates/post-img.png"
+                    alt="Featured Image"
+                  />
+                </div>
+                <div class="column is-12 featured-content">
+                  <h3 class="heading post-category">Category Name</h3>
+                  <h1 class="title post-title">
+                    Slightly Longer Blog Post Title
+                  </h1>
+                  <p class="post-excerpt">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Accusamus ratione harum eaque, animi nulla tempore quis,
+                    quam voluptatum.
+                  </p>
+                  <br />
+                  <a href="#" class="button is-primary">Read More</a>
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
-    <!--
-      Dynamic component used based on the tab selected
-      Reference: https://vuejs.org/guide/essentials/component-basics.html#dynamic-components
-      
-      Pass timeValue as a prop to child component.
-      More specifically, timeValue is binded to child component,
-      meaning that the prop value the child component receives is
-      automatically updated as the `timeValue` here gets updated.
-    -->
-    <component :is="'Demo' + API_type" :timeAsProp="timeValue">
-      <!-- Example on how to use a named slot -->
-      <template #title>
-        <p class="title">Vue3 Bulma Template ({{ API_type }})</p>
-      </template>
-    </component>
-
-    <!-- Alternative using simple if/else vue directives instead of dynamic components -->
-    <!--
-      <div v-if="API_type === 'options'">
-        <DemoOptions :timeAsProp="timeValue">
-          <template #title>
-            <p class="title">Vue3 Bulma Template (Options)</p>
-          </template>
-        </DemoOptions>
-      </div>
-      <div v-else-if="API_type === 'composition'">
-        <DemoComposition :timeAsProp="timeValue">
-          <template #title>
-            <p class="title">Vue3 Bulma Template (Composition)</p>
-          </template>
-        </DemoComposition>
-      </div>
-      <div v-else class="section">
-        <h1 class="title">INTERNAL ERROR: Invalid API type selected</h1>
-      </div>
-    -->
-  </div>
+  </section>
 </template>
 
-<script lang="ts">
-import { defineComponent } from "vue";
-
-import DemoOptions from "../components/DemoOptions.vue";
-import DemoComposition from "../components/DemoComposition.vue";
-
-export default defineComponent({
-  name: "Home",
-
-  components: { DemoOptions, DemoComposition },
-
-  data(): {
-    API_type: "Options" | "Composition";
-    timeValue: number;
-  } {
-    return {
-      // Default to show Demo component built using Options API
-      // API_type: "Options",
-      API_type: "Composition",
-
-      timeValue: Date.now(),
-    };
-  },
-
-  created() {
-    // Continuosly update the data field, and since the data field is used as a prop
-    // binded to the child component, the child component prop will also be updated.
-    setInterval(() => (this.timeValue = Date.now()), 1000);
-  },
-});
-</script>
+<style>
+@import "../../assets/css/ghost-blog.css";
+</style>

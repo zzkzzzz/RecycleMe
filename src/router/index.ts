@@ -28,7 +28,7 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      component: Parallax,
+      component: Home,
     },
     // {
     //   path: "/Parallax",
