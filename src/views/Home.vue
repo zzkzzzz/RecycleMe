@@ -30,20 +30,19 @@
               <article class="columns featured">
                 <div class="column is-7 post-img">
                   <img
-                    src="https://cdn.emk.dev/templates/featured-image.png"
+                    src="https://www.cnet.com/a/img/resize/5f7dbd26a1e2f95d43c5eea2ac28a9d19f0707f5/2022/04/21/6a3f177d-3ecd-4a90-8a72-021c996ccf93/gettyimages-1187829731.jpg?auto=webp&fit=crop&height=675&width=1200"
                     alt=""
                   />
                 </div>
                 <div class="column is-5 featured-content va">
                   <div>
                     <h3 class="heading post-category">Category Name</h3>
-                    <h1 class="title post-title">Blog Posts Template</h1>
+                    <h1 class="title post-title">LET’S RECYCLE TOGETHER</h1>
                     <p class="post-excerpt">
-                      This template is based off of the official default blog
-                      template created by the fine folks over at
-                      <a href="https://ghost.io">Ghost</a>. If you are looking
-                      for a fully featured blog platform, I highly recommend
-                      checking them out!
+                      40% of what we place inside the blue recycling bins are
+                      not suitable for recycling. That’s because these items are
+                      either contaminated with food and liquids, or made of
+                      materials that can’t be recycled at all.
                     </p>
                     <br />
                     <a href="#" class="button is-primary">Read More</a>
@@ -58,19 +57,18 @@
               <article class="columns is-multiline">
                 <div class="column is-12 post-img">
                   <img
-                    src="https://cdn.emk.dev/templates/post-img.png"
+                    src="https://jakesjunkremoval.com/wp-content/uploads/2017/08/shutterstock_667031947.jpg"
                     alt="Featured Image"
                   />
                 </div>
                 <div class="column is-12 featured-content">
                   <h3 class="heading post-category">Category Name</h3>
                   <h1 class="title post-title">
-                    Slightly Longer Blog Post Title
+                    Earth Day: 5 Things You Can Recycle and 5 Things You Can't
                   </h1>
                   <p class="post-excerpt">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Accusamus ratione harum eaque, animi nulla tempore quis,
-                    quam voluptatum.
+                    Everyone knows you can recycle paper, plastic, glass and
+                    aluminum, but some of these might surprise you.
                   </p>
                   <br />
                   <a href="#" class="button is-primary">Read More</a>
@@ -81,19 +79,21 @@
               <article class="columns is-multiline">
                 <div class="column is-12 post-img">
                   <img
-                    src="https://cdn.emk.dev/templates/post-img.png"
+                    src="https://www.recyclingbins.co.uk/media/wysiwyg/Why_is_Recycling_Important.jpg"
                     alt="Featured Image"
                   />
                 </div>
                 <div class="column is-12 featured-content">
                   <h3 class="heading post-category">Category Name</h3>
                   <h1 class="title post-title">
-                    Slightly Longer Blog Post Title
+                    5 Reasons to Recycle — And How You Can Recycle Right
                   </h1>
                   <p class="post-excerpt">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Accusamus ratione harum eaque, animi nulla tempore quis,
-                    quam voluptatum.
+                    What if you knew there was something you could do every day
+                    that’s free, easy to do, and creates jobs while saving
+                    money, energy and water? Actually, there is: Recycling!
+                    Check out these 5 reasons why we should all be recycling,
+                    every chance we get.
                   </p>
                   <br />
                   <a href="#" class="button is-primary">Read More</a>
