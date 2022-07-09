@@ -59,7 +59,8 @@ html, body {
     background: -webkit-linear-gradient(to right, #4dc567, #36D1DC);
     background: linear-gradient(to right, #4dc567, #36D1DC);
     text-align: center;
-    background-position: center;
+    height: auto;
+    width: auto;
   }
   .hero.welcome .title, .hero.welcome .subtitle {
     color: hsl(192, 17%, 99%);
@@ -81,3 +82,14 @@ html, body {
     max-height: 250px;
     overflow-y: scroll;
   }
+  .PieChart{
+    text-align: center;
+  }
+  .LineChart{
+    text-align: center;
+  }
+
+  /* img {
+    height: 256px;
+    width: 256px;
+  } */
