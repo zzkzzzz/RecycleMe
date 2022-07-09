@@ -55,9 +55,11 @@ html, body {
     color: #8F99A3;
   }
   .hero.welcome.is-info {
-    background: #36D1DC;
-    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);
-    background: linear-gradient(to right, #5B86E5, #36D1DC);
+    background: #4dc567;
+    background: -webkit-linear-gradient(to right, #4dc567, #36D1DC);
+    background: linear-gradient(to right, #4dc567, #36D1DC);
+    text-align: center;
+    background-position: center;
   }
   .hero.welcome .title, .hero.welcome .subtitle {
     color: hsl(192, 17%, 99%);
