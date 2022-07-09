@@ -1,6 +1,6 @@
 <template>
-  <body>
-    <section class="hero is-info is-fullheight">
+  <body class="container">
+    <section class="hero is-fullheight">
       <div class="hero-head">
         <!-- <nav class="navbar">
           <div class="container">
@@ -59,7 +59,6 @@
           </div>
         </nav> -->
       </div>
-
       <div class="hero-body">
         <div class="container has-text-centered">
           <div class="column is-6 is-offset-3">
@@ -81,7 +80,7 @@
                   </div> -->
                   <div class="field">
                     <div class="control">
-                      <div class="select">
+                      <div class="select is-primary">
                         <select>
                           <option>Paper</option>
                           <option>Glass</option>
@@ -102,11 +101,37 @@
                   </div>
                   <div class="field">
                     <p class="control">
-                      <a class="button is-info"> Recycle it! </a>
+                      <a class="button is-success"> Recycle it! </a>
                     </p>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div class="tile is-ancestor has-text-centered">
+            <div class="tile is-parent">
+              <article class="tile is-child">
+                <figure class="image is-square">
+                  <img src="https://bulma.io/images/placeholders/128x128.png" />
+                </figure>
+                <p class="title">439k</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child">
+                <figure class="image is-square">
+                  <img src="https://bulma.io/images/placeholders/128x128.png" />
+                </figure>
+                <p class="title">59k</p>
+              </article>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child">
+                <figure class="image is-square">
+                  <img src="https://bulma.io/images/placeholders/128x128.png" />
+                </figure>
+                <p class="title">3.4k</p>
+              </article>
             </div>
           </div>
         </div>
