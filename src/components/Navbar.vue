@@ -54,7 +54,7 @@ export default {
 
       // @todo Add menu items as needed
       menuItems: [
-        { name: "Contact us", link: "" },
+        { name: "Contact us", link: "/contact" },
         { name: "Recycle", link: "/tree" },
         { name: "Achievement", link: "/profile" },
       ],

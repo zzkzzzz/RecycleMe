@@ -176,6 +176,6 @@
   </section>
 </template>
 
-<style>
+<style scoped>
 @import "../../assets/css/ghost-blog.css";
 </style>
