@@ -45,7 +45,11 @@
                       materials that can’t be recycled at all.
                     </p>
                     <br />
-                    <a href="#" class="button is-primary">Read More</a>
+                    <a
+                      href="http://www.zerowastesg.com/our-work/recycle/"
+                      class="button is-primary"
+                      >Read More</a
+                    >
                   </div>
                 </div>
               </article>
@@ -71,7 +75,11 @@
                     aluminum, but some of these might surprise you.
                   </p>
                   <br />
-                  <a href="#" class="button is-primary">Read More</a>
+                  <a
+                    href="https://www.cnet.com/science/climate/earth-day-5-things-you-can-recycle-and-5-things-you-cant/"
+                    class="button is-primary"
+                    >Read More</a
+                  >
                 </div>
               </article>
             </div>
@@ -96,7 +104,11 @@
                     every chance we get.
                   </p>
                   <br />
-                  <a href="#" class="button is-primary">Read More</a>
+                  <a
+                    href="https://sanjoserecycles.org/5-reasons-to-recycle/"
+                    class="button is-primary"
+                    >Read More</a
+                  >
                 </div>
               </article>
             </div>
