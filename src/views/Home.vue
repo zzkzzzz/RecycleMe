@@ -100,7 +100,7 @@
                 </div>
               </article>
             </div>
-            <div class="column post is-4">
+            <!-- <div class="column post is-4">
               <article class="columns is-multiline">
                 <div class="column is-12 post-img">
                   <img
@@ -168,7 +168,7 @@
                   <a href="#" class="button is-primary">Read More</a>
                 </div>
               </article>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
