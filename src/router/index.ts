@@ -6,6 +6,7 @@ import AuthType from "./AuthType";
 import Home from "../views/Home.vue";
 import Profile from "../views/Profile.vue";
 import Tree from "../views/Tree.vue";
+import Contact from "../views/Contact.vue";
 
 const router = createRouter({
   history: createWebHashHistory(),
@@ -40,6 +41,11 @@ const router = createRouter({
       path: "/Tree",
       name: "tree",
       component: Tree,
+    },
+    {
+      path: "/Contact",
+      name: "contact",
+      component: Contact,
     },
 
     /* Public only routes */

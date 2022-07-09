@@ -115,6 +115,6 @@
   </body>
 </template>
 
-<style>
+<style scoped>
 @import "../../assets/css/tree.css";
 </style>
