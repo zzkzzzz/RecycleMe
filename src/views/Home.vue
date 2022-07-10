@@ -36,7 +36,6 @@
                 </div>
                 <div class="column is-5 featured-content va">
                   <div>
-                    <h3 class="heading post-category">Category Name</h3>
                     <h1 class="title post-title">LET’S RECYCLE TOGETHER</h1>
                     <p class="post-excerpt">
                       40% of what we place inside the blue recycling bins are
@@ -66,7 +65,6 @@
                   />
                 </div>
                 <div class="column is-12 featured-content">
-                  <h3 class="heading post-category">Category Name</h3>
                   <h1 class="title post-title">
                     Earth Day: 5 Things You Can Recycle and 5 Things You Can't
                   </h1>
@@ -92,7 +90,6 @@
                   />
                 </div>
                 <div class="column is-12 featured-content">
-                  <h3 class="heading post-category">Category Name</h3>
                   <h1 class="title post-title">
                     5 Reasons to Recycle — And How You Can Recycle Right
                   </h1>
