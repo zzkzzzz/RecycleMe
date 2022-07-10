@@ -26,8 +26,7 @@
             <div class="column is-two-thirds has-text-left">
               <h1 class="title is-1">Contact Us</h1>
               <p class="is-size-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                eligendi soluta voluptate facere molestiae consequatur.
+                Feel free to reach out to us if you have any question :D
               </p>
               <div class="social-media">
                 <a
@@ -72,7 +71,7 @@
               <div class="control">
                 <button
                   type="submit"
-                  class="button is-link is-fullwidth has-text-weight-medium is-medium"
+                  class="button is-success is-fullwidth has-text-weight-medium is-medium"
                 >
                   Send Message
                 </button>
