@@ -115,7 +115,7 @@
           <br>
          
          <div class="LineChart">
-          <h1>Quantaty of waste this month(kg)</h1>
+          <h1>Quantaty of waste recycled this month(kg)</h1>
           <line-chart :data="{ '2022-06-01':'0.640', 
           '2022-06-06':'0.35',
           '2022-06-08':'0.735',
